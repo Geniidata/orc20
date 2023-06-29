@@ -1,0 +1,59 @@
+name: Oip Request
+description: Suggest a oip for this project.
+labels: [Feature]
+body:
+  - type: textarea
+    id: Abstract
+    attributes:
+      label: Abstract
+    validations:
+      required: false
+  - type: textarea
+    id: Motivation
+    attributes:
+      label: Motivation
+    validations:
+      required: false
+  - type: textarea
+    id: Design
+    attributes:
+      label: Design
+    validations:
+      required: false
+  - type: textarea
+    id: Specification
+    attributes:
+      label: Specification
+    validations:
+      required: false
+  - type: textarea
+    id: Backwards-Compatibility
+    attributes:
+      label: Backwards Compatibility
+    validations:
+      required: false
+  - type: textarea
+    id: Implementation
+    attributes:
+      label: Implementation
+    validations:
+      required: false
+  - type: textarea
+    id: Examples
+    attributes:
+      label: Examples
+    validations:
+      required: false
+  - type: textarea
+    id: References
+    attributes:
+      label: References
+    validations:
+      required: false
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: additional context
+    validations:
+      required: false
+      
