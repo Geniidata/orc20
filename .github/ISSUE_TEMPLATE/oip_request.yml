@@ -1,6 +1,6 @@
 name: Oip Request
 description: Suggest a oip for this project.
-labels: [Feature]
+labels: [Feature, oip]
 body:
   - type: textarea
     id: Abstract
@@ -53,7 +53,7 @@ body:
   - type: textarea
     id: additional-context
     attributes:
-      label: additional context
+      label: Additional context
     validations:
       required: false
       
