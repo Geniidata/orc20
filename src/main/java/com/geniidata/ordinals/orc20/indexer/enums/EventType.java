@@ -1,0 +1,17 @@
+package com.geniidata.ordinals.orc20.indexer.enums;
+
+public enum EventType {
+    INSCRIBE_DEPLOY,
+    INSCRIBE_MINT,
+    INSCRIBE_SEND,
+    INSCRIBE_REMAINING_BALANCE,
+    INSCRIBE_CANCEL,
+    INSCRIBE_UPGRADE,
+    TRANSFER_DEPLOY,
+    TRANSFER_MINT,
+    TRANSFER_SEND,
+    TRANSFER_REMAINING_BALANCE,
+    TRANSFER_UPGRADE,
+    WITHDRAW,
+    DEPOSIT
+}
