@@ -4,6 +4,9 @@ This library fully implements the specification protocol of orc-20.
 
 Developers can integrate this library in the code according to their needs.
 
+### Files
+```orc20_balance_snapshot_before_800010.txt```  _At block height #800010, we took a snapshot of the orc20 balance(excluding #800010) and saved it into this file. After block #800010, all new transactions will follow [OIP-10](https://docs.orc20.org/oips/oip-10)._
+
 ### Building
 
 Orc20-Indexer uses Maven to build the project:
